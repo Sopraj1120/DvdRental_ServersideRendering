@@ -1,0 +1,70 @@
+:root {
+  --dark-blue: #0b60b0;
+  --blue: #40a2d8;
+  --B1-blue: #001233;
+  --B2-Blue: #023e8a;
+  --B3-Blue: #0077b6;
+  --B4-Blue: #90e0ef;
+  --B1-Gray: #33415c;
+  --gray: #f0edcf;
+  --black: #000000;
+  --max-width: 1300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: yellow;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), 
+url(../assets/bg14.jpg);; */
+  /* background-repeat: no-repeat;
+background-size: cover; */
+  min-height: 100vh;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+select {
+  font-size: 25px;
+}
+
+input::placeholder {
+  font-size: 1rem;
+}
+
+p {
+  text-align: center;
+  color: rgb(0, 84, 105);
+}
+
+figcaption {
+  font-size: 22px;
+  color: #f8f8f8;
+  text-align: center;
+  background-color: #04235c;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4b4b4b;
+  color: white;
+  margin-top: 7rem;
+}
